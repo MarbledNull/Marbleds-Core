@@ -16,7 +16,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod(MarbledsCore.MODID)
 public class MarbledsCore
 {
-    public static final String MODID = "mcore";
+    public static final String MODID = "data/mcore";
 
     public MarbledsCore()
     {
