@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="All Rights Reserved"
+
+[[mods]]
+modId="mcore"
+version="1.0.0"
+displayName="Marbled's Core"
+displayURL="Link 1 / Link 2"
+logoFile="mcore_logo.png"
+credits="MarbledNull, MarbledHubb Testing Program, MarbledHubb Volunteer Translators"
+authors="MarbledNull"
+description='''A core mod for all of MarbledNull's mods.'''
+
+[[dependencies.mcore]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mcore]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
