@@ -13,7 +13,7 @@ public class ModTabs {
 
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MarbledsCore.MODID);
 
-    public static final RegistryObject<CreativeModeTab> MCORE = TABS.register("MCORE",
+    public static final RegistryObject<CreativeModeTab> MCORE = TABS.register("mcore",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.mcore"))
                     .icon(() -> new ItemStack(ModItems.STEEL_INGOT.get()))
