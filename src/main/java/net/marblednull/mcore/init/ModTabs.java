@@ -16,13 +16,19 @@ public class ModTabs {
     public static final RegistryObject<CreativeModeTab> MCORE = TABS.register("mcore",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.mcore"))
-                    .icon(() -> new ItemStack(ModItems.STEEL_INGOT.get()))
+                    .icon(() -> new ItemStack(ModBlocks.STEEL_BLOCK.get()))
                     .displayItems((displayParameters, pOutput) -> {
 
-                        //Non-3D Blocks
+                        //Blocks
+                        pOutput.accept(ModBlocks.STEEL_BLOCK.get());
 
+                        //Items
                         pOutput.accept(ModItems.STEEL_INGOT.get());
+                        pOutput.accept(ModItems.STEEL_NUGGET.get());
+                        pOutput.accept(ModItems.STEEL_SHEET.get());
+                        pOutput.accept(ModItems.STEEL_SCRAP.get());
 
+                        //Tools & Armor
                     })
                     .build()
     );

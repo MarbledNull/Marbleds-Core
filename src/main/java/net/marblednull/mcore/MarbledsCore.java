@@ -1,5 +1,6 @@
 package net.marblednull.mcore;
 
+import net.marblednull.mcore.init.ModBlocks;
 import net.marblednull.mcore.init.ModItems;
 import net.marblednull.mcore.init.ModTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -26,6 +27,7 @@ public class MarbledsCore
 
         ModItems.register(modEventBus);
         ModTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

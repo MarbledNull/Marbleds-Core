@@ -4,5 +4,7 @@
   "item.mcore.steel_ingot": "Steel Ingot",
   "item.mcore.steel_sheet": "Steel Sheet",
   "item.mcore.steel_nugget": "Steel Nugget",
-  "item.mcore.steel_scrap": "Steel Scrap"
+  "item.mcore.steel_scrap": "Steel Scrap",
+
+  "block.mcore.steel_block": "Steel Block"
 }
