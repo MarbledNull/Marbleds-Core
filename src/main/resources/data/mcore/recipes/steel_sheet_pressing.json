@@ -1,0 +1,17 @@
+{
+  "type": "forge:mod_loaded",
+  "modid": "create",
+
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "mcore:steel_ingot"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "mcore:steel_sheet"
+    }
+  ]
+}

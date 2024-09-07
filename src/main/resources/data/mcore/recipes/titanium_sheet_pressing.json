@@ -1,0 +1,17 @@
+{
+  "type": "forge:mod_loaded",
+  "modid": "create",
+
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "mcore:titanium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "mcore:titanium_sheet"
+    }
+  ]
+}
