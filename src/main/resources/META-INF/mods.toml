@@ -23,13 +23,13 @@ displayName="Marbled's Core" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+displayURL="https://curseforge.com/minecraft/mc-mods/marbleds-core / https://modrinth.com/project/marbleds-core" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+logoFile="mcore_logo.png" #optional
 # A text field displayed in the mod UI
-credits="" #optional
+credits="MarbledNull, MarledHubb Testing Program, MarbledHubb Volunteer Translators" #optional
 # A text field displayed in the mod UI
-authors="${mod_authors}" #optional
+authors="MarbledNull" #optional
 # Display Test controls the display for your mod in the server connection screen
 # MATCH_VERSION means that your mod will cause a red X if the versions on client and server differ. This is the default behaviour and should be what you choose if you have server and client elements to your mod.
 # IGNORE_SERVER_VERSION means that your mod will not cause a red X if it's present on the server but not on the client. This is what you should use if you're a server only mod.
@@ -39,7 +39,7 @@ authors="${mod_authors}" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''${mod_description}'''
+description='''A core mod for Marbled's mods or a standalone material mod'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.mcore]] #optional
     # the modid of the dependency
