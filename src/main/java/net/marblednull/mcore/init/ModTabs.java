@@ -19,8 +19,15 @@ public class ModTabs {
                     .icon(() -> new ItemStack(ModBlocks.STEEL_BLOCK.get()))
                     .displayItems((displayParameters, pOutput) -> {
 
-                        //blocks
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
+                        //pOutput.accept(ModBlocks.STEEL_STAIRS.get());
+                        //pOutput.accept(ModBlocks.STEEL_SLAB.get());
+                        //pOutput.accept(ModBlocks.CUT_STEEL_BLOCK.get());
+                        //pOutput.accept(ModBlocks.CUT_STEEL_STAIRS.get());
+                        //pOutput.accept(ModBlocks.CUT_STEEL_SLAB.get());
+                        //pOutput.accept(ModBlocks.VERTICAL_CUT_STEEL_BLOCK.get());
+                        //pOutput.accept(ModBlocks.VERTICAL_CUT_STEEL_STAIRS.get());
+                        //pOutput.accept(ModBlocks.VERTICAL_CUT_STEEL_SLAB.get());
                         pOutput.accept(ModItems.STEEL_INGOT.get());
                         pOutput.accept(ModItems.STEEL_NUGGET.get());
                         pOutput.accept(ModItems.STEEL_SHEET.get());
@@ -28,6 +35,7 @@ public class ModTabs {
 
                         pOutput.accept(ModBlocks.DEEPLSATE_TITANIUM_ORE.get());
                         pOutput.accept(ModBlocks.TITANIUM_BLOCK.get());
+                        //pOutput.accept(ModBlocks.CUT_TITANIUM_BLOCK.get());
                         pOutput.accept(ModItems.TITANIUM_INGOT.get());
                         pOutput.accept(ModItems.TITANIUM_NUGGET.get());
                         pOutput.accept(ModItems.RAW_TITANIUM.get());
@@ -37,18 +45,15 @@ public class ModTabs {
                         pOutput.accept(ModItems.STEEL_AXE.get());
                         pOutput.accept(ModItems.STEEL_SHOVEL.get());
                         pOutput.accept(ModItems.STEEL_HOE.get());
-
                         pOutput.accept(ModItems.TITANIUM_SWORD.get());
                         pOutput.accept(ModItems.TITANIUM_PICKAXE.get());
                         pOutput.accept(ModItems.TITANIUM_AXE.get());
                         pOutput.accept(ModItems.TITANIUM_SHOVEL.get());
                         pOutput.accept(ModItems.TITANIUM_HOE.get());
-
                         pOutput.accept(ModItems.STEEL_HELMET.get());
                         pOutput.accept(ModItems.STEEL_CHESTPLATE.get());
                         pOutput.accept(ModItems.STEEL_LEGGINGS.get());
                         pOutput.accept(ModItems.STEEL_BOOTS.get());
-
                         pOutput.accept(ModItems.TITANIUM_HELMET.get());
                         pOutput.accept(ModItems.TITANIUM_CHESTPLATE.get());
                         pOutput.accept(ModItems.TITANIUM_LEGGINGS.get());
