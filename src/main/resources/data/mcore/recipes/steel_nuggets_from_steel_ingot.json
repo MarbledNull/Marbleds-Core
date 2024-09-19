@@ -1,16 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "pattern": [
+    "i"
+  ],
   "key": {
-    "#": {
+    "i": {
       "item": "mcore:steel_ingot"
     }
   },
-  "pattern": [
-    "#"
-  ],
   "result": {
-    "count": 9,
-    "id": "mcore:steel_nuggets"
+    "item": "mcore:steel_nugget",
+    "count": 9
   }
 }

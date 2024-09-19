@@ -1,17 +1,31 @@
 {
-  "type": "forge:mod_loaded",
-  "modid": "create",
+  "type": "forge:conditional",
 
-  "type": "create:pressing",
-  "ingredients": [
+  "recipes": [
     {
-      "item": "mcore:titanium_ingot"
-    }
-  ],
-  "results": [
-    {
-      "count": 2,
-      "item": "mcore:titanium_sheet"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "recipe": {
+        "type": "forge:mod_loaded",
+        "modid": "create",
+
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "mcore:titanium_ingot"
+          }
+        ],
+        "results": [
+          {
+            "count": 2,
+            "item": "mcore:titanium_sheet"
+          }
+        ]
+      }
     }
   ]
 }

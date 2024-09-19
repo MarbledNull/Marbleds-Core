@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "i i",
     "iii",
-    "iii"
+    "i i",
+    "i i"
   ],
   "key": {
     "i": {
@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "mcore:titanium_chestplate",
+    "item": "mcore:titanium_leggings",
     "count": 1
   }
 }

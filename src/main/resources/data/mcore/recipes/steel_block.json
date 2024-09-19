@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
   "key": {
-    "#": {
+    "i": {
       "item": "mcore:steel_ingot"
     }
   },
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
   "result": {
-    "count": 1,
-    "id": "mcore:steel_block"
+    "item": "mcore:steel_block",
+    "count": 1
   }
 }

@@ -1,9 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "i i",
-    "iii",
-    "iii"
+    "i"
   ],
   "key": {
     "i": {
@@ -11,7 +9,7 @@
     }
   },
   "result": {
-    "item": "mcore:titanium_chestplate",
-    "count": 1
+    "item": "mcore:titanium_nugget",
+    "count": 9
   }
 }

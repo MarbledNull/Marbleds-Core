@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "pattern": [
+    "i i",
+    "i i"
+  ],
   "key": {
-    "X": {
+    "i": {
       "item": "mcore:titanium_ingot"
     }
   },
-  "pattern": [
-    "X X",
-    "X X"
-  ],
   "result": {
-    "count": 1,
-    "id": "mcore:titanium_boots"
+    "item": "mcore:titanium_boots",
+    "count": 1
   }
 }

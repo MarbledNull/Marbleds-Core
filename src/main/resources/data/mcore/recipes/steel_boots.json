@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "pattern": [
+    "i i",
+    "i i"
+  ],
   "key": {
-    "X": {
+    "i": {
       "item": "mcore:steel_ingot"
     }
   },
-  "pattern": [
-    "X X",
-    "X X"
-  ],
   "result": {
-    "count": 1,
-    "id": "mcore:steel_boots"
+    "item": "mcore:steel_boots",
+    "count": 1
   }
 }

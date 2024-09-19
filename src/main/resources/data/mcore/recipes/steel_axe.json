@@ -1,21 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "pattern": [
+    "ii",
+    "i/",
+    " /"
+  ],
   "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
+    "i": {
       "item": "mcore:steel_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
     }
   },
-  "pattern": [
-    "XX",
-    "X#",
-    " #"
-  ],
   "result": {
-    "count": 1,
-    "id": "mcore:steel_axe"
+    "item": "mcore:steel_axe",
+    "count": 1
   }
 }

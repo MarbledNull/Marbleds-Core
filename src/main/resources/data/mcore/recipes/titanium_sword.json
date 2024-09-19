@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "i",
-    "/",
+    "i",
     "/"
   ],
   "key": {
     "i": {
-      "item": "mcore:steel_ingot"
+      "item": "mcore:titanium_ingot"
     },
     "/": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "mcore:steel_shovel",
+    "item": "mcore:titanium_sword",
     "count": 1
   }
 }

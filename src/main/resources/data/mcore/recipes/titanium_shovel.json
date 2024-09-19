@@ -7,14 +7,14 @@
   ],
   "key": {
     "i": {
-      "item": "mcore:steel_ingot"
+      "item": "mcore:titanium_ingot"
     },
     "/": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "mcore:steel_shovel",
+    "item": "mcore:titanium_shovel",
     "count": 1
   }
 }
