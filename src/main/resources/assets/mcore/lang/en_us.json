@@ -32,7 +32,7 @@
   "item.mcore.titanium_nugget": "Titanium Nugget",
   "item.mcore.raw_titanium": "Raw Titanium",
 
-  "block.mcore.steel_block": "Steel Block",
-  "block.mcore.titanium_block": "Titanium Block",
+  "block.mcore.steel_block": "Block of Steel",
+  "block.mcore.titanium_block": "Block of Titanium",
   "block.mcore.deepslate_titanium_ore": "Deepslate Titanium Ore"
 }
