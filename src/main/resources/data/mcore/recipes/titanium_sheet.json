@@ -5,11 +5,11 @@
   ],
   "key": {
     "i": {
-      "tag": "forge:ingots/steel"
+      "tag": "forge:ingots/titanium"
     }
   },
   "result": {
-    "item": "mcore:steel_sheet",
+    "item": "mcore:titanium_sheet",
     "count": 6
   }
 }

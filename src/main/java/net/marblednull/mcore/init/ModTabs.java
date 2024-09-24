@@ -38,6 +38,7 @@ public class ModTabs {
                         //pOutput.accept(ModBlocks.CUT_TITANIUM_BLOCK.get());
                         pOutput.accept(ModItems.TITANIUM_INGOT.get());
                         pOutput.accept(ModItems.TITANIUM_NUGGET.get());
+                        pOutput.accept(ModItems.TITANIUM_SHEET.get());
                         pOutput.accept(ModItems.RAW_TITANIUM.get());
 
                         pOutput.accept(ModItems.STEEL_SWORD.get());
