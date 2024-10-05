@@ -1,8 +1,8 @@
 package net.marblednull.mcore.init;
 
 import net.marblednull.mcore.MarbledsCore;
-import net.marblednull.mcore.materials.McoreArmorMaterials;
-import net.marblednull.mcore.materials.McoreTiers;
+import net.marblednull.mcore.util.McoreArmorMaterials;
+import net.marblednull.mcore.util.McoreTiers;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
