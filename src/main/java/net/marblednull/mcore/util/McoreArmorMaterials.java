@@ -1,4 +1,4 @@
-package net.marblednull.mcore.materials;
+package net.marblednull.mcore.util;
 
 import net.marblednull.mcore.MarbledsCore;
 import net.marblednull.mcore.init.ModItems;

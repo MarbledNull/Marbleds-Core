@@ -1,8 +1,7 @@
-package net.marblednull.mcore.materials;
+package net.marblednull.mcore.util;
 
 import net.marblednull.mcore.MarbledsCore;
 import net.marblednull.mcore.init.ModItems;
-import net.marblednull.mcore.util.ModTags;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;
