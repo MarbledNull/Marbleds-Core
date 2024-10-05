@@ -29,8 +29,6 @@ public class MarbledsCore
 
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
-
-        //testing something
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
