@@ -1,0 +1,31 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "recipe": {
+        "type": "forge:mod_loaded",
+        "modid": "create",
+
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "mcore:titanium_ingot"
+          }
+        ],
+        "results": [
+          {
+            "count": 3,
+            "item": "mcore:titanium_sheet"
+          }
+        ]
+      }
+    }
+  ]
+}
