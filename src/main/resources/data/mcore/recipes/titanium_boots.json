@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i i",
+    "i i"
+  ],
+  "key": {
+    "i": {
+      "item": "mcore:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "mcore:titanium_boots",
+    "count": 1
+  }
+}
