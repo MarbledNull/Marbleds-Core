@@ -10,7 +10,7 @@
           "tag": "minecraft:deepslate_ore_replaceables"
         },
         "state": {
-          "Name": "minecraft:deepslate_titanium_ore"
+          "Name": "mcore:deepslate_titanium_ore"
         }
       }
     ]
