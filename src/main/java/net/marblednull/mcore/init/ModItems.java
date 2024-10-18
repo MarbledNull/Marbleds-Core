@@ -46,17 +46,17 @@ public class ModItems {
     public static final RegistryObject<Item> DEEPSLATE_TITANIUM_ORE = ITEMS.register("deepslate_titanium_ore", () -> new BlockItem(ModBlocks.DEEPLSATE_TITANIUM_ORE.get(), new Item.Properties().fireResistant().tab(ModTabs.TABS)));
 
     //tools & weapons
-    public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword", () -> new SwordItem(McoreTiers.STEEL, 1, -2.4F, new Item.Properties().durability(2031).tab(ModTabs.TABS)));
-    public static final RegistryObject<Item> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new PickaxeItem(McoreTiers.STEEL, -1, -2.8F, new Item.Properties().durability(2031).tab(ModTabs.TABS)));
-    public static final RegistryObject<Item> STEEL_AXE = ITEMS.register("steel_axe", () -> new AxeItem(McoreTiers.STEEL, 0, 0, new Item.Properties().durability(1561).tab(ModTabs.TABS)));
-    public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ShovelItem(McoreTiers.STEEL, 0, 0, new Item.Properties().durability(1561).tab(ModTabs.TABS)));
-    public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe", () -> new HoeItem(McoreTiers.STEEL, 0, 0, new Item.Properties().durability(1561).tab(ModTabs.TABS)));
+    public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword", () -> new SwordItem(McoreTiers.STEEL, 1, -2.4F, new Item.Properties().durability(1561).tab(ModTabs.TABS)));
+    public static final RegistryObject<Item> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new PickaxeItem(McoreTiers.STEEL, -2, -2.8F, new Item.Properties().durability(1561).tab(ModTabs.TABS)));
+    public static final RegistryObject<Item> STEEL_AXE = ITEMS.register("steel_axe", () -> new AxeItem(McoreTiers.STEEL, 4, -3.1f, new Item.Properties().durability(1561).tab(ModTabs.TABS)));
+    public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ShovelItem(McoreTiers.STEEL, -0.5f, -3, new Item.Properties().durability(1561).tab(ModTabs.TABS)));
+    public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe", () -> new HoeItem(McoreTiers.STEEL, -4, -1, new Item.Properties().durability(1561).tab(ModTabs.TABS)));
 
-    public static final RegistryObject<Item> TITANIUM_SWORD = ITEMS.register("titanium_sword", () -> new SwordItem(McoreTiers.TITANIUM, 4, -2.4F, new Item.Properties().fireResistant().durability(1561).tab(ModTabs.TABS)));
-    public static final RegistryObject<Item> TITANIUM_PICKAXE = ITEMS.register("titanium_pickaxe", () -> new PickaxeItem(McoreTiers.TITANIUM, 2, -2.8F, new Item.Properties().fireResistant().durability(1561).tab(ModTabs.TABS)));
-    public static final RegistryObject<Item> TITANIUM_AXE = ITEMS.register("titanium_axe", () -> new AxeItem(McoreTiers.TITANIUM, 0, 0, new Item.Properties().fireResistant().durability(1561).tab(ModTabs.TABS)));
-    public static final RegistryObject<Item> TITANIUM_SHOVEL = ITEMS.register("titanium_shovel", () -> new ShovelItem(McoreTiers.TITANIUM, 0, 0, new Item.Properties().fireResistant().durability(1561).tab(ModTabs.TABS)));
-    public static final RegistryObject<Item> TITANIUM_HOE = ITEMS.register("titanium_hoe", () -> new HoeItem(McoreTiers.TITANIUM, 0, 0, new Item.Properties().fireResistant().durability(1561).tab(ModTabs.TABS)));
+    public static final RegistryObject<Item> TITANIUM_SWORD = ITEMS.register("titanium_sword", () -> new SwordItem(McoreTiers.TITANIUM, 4, -2.4F, new Item.Properties().fireResistant().durability(250).tab(ModTabs.TABS)));
+    public static final RegistryObject<Item> TITANIUM_PICKAXE = ITEMS.register("titanium_pickaxe", () -> new PickaxeItem(McoreTiers.TITANIUM, 2, -2.8F, new Item.Properties().fireResistant().durability(250).tab(ModTabs.TABS)));
+    public static final RegistryObject<Item> TITANIUM_AXE = ITEMS.register("titanium_axe", () -> new AxeItem(McoreTiers.TITANIUM, 6, -3f, new Item.Properties().fireResistant().durability(250).tab(ModTabs.TABS)));
+    public static final RegistryObject<Item> TITANIUM_SHOVEL = ITEMS.register("titanium_shovel", () -> new ShovelItem(McoreTiers.TITANIUM, -2.5f, -3, new Item.Properties().fireResistant().durability(250).tab(ModTabs.TABS)));
+    public static final RegistryObject<Item> TITANIUM_HOE = ITEMS.register("titanium_hoe", () -> new HoeItem(McoreTiers.TITANIUM, -2, 0, new Item.Properties().fireResistant().durability(250).tab(ModTabs.TABS)));
 
     //armor sets
     public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet", () -> new ArmorItem(McoreArmorMaterials.STEEL, EquipmentSlot.HEAD, new Item.Properties().tab(ModTabs.TABS)));
