@@ -1,27 +1,35 @@
 {
-  "type": "minecraft:ore",
+  "type": "minecraft:decorated",
   "config": {
-    "discard_chance_on_air_exposure": 0.0,
-    "size": 5,
-    "targets": [
-      {
-        "state": {
-          "Name": "mcore:deepslate_titanium_ore"
+    "decorator": {
+      "type": "minecraft:square",
+      "config": {}
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:range",
+          "config": {
+            "maximum": 16,
+            "bottom_offset": 0,
+            "top_offset": 0
+          }
         },
-        "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:deepslate_ore_replaceables"
-        }
-      },
-      {
-        "state": {
-          "Name": "mcore:deepslate_titanium_ore"
-        },
-        "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:deepslate_ore_replaceables"
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "state": {
+              "Name": "mcore:titanium_ore"
+            },
+            "size": 4,
+            "target": {
+              "predicate_type": "minecraft:tag_match",
+              "tag": "minecraft:base_stone_overworld"
+            }
+          }
         }
       }
-    ]
+    }
   }
 }
