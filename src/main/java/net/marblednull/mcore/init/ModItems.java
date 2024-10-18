@@ -22,7 +22,6 @@ public class ModItems {
     public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot", () -> new Item(new Item.Properties().fireResistant().tab(ModTabs.TABS)));
     public static final RegistryObject<Item> TITANIUM_NUGGET = ITEMS.register("titanium_nugget", () -> new Item(new Item.Properties().fireResistant().tab(ModTabs.TABS)));
     public static final RegistryObject<Item> TITANIUM_SHEET = ITEMS.register("titanium_sheet", () -> new Item(new Item.Properties().fireResistant().tab(ModTabs.TABS)));
-    public static final RegistryObject<Item> RAW_TITANIUM = ITEMS.register("raw_titanium", () -> new Item(new Item.Properties().fireResistant().tab(ModTabs.TABS)));
 
     //item blocks
     public static final RegistryObject<Item> STEEL_BLOCK = ITEMS.register("steel_block", () -> new BlockItem(ModBlocks.STEEL_BLOCK.get(), new Item.Properties().tab(ModTabs.TABS)));
