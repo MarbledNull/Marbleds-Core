@@ -29,7 +29,7 @@ displayURL="https://curseforge.com/minecraft/mc-mods/marbleds-core / https://mod
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="ma_logo.png" #optional
 # A text field displayed in the mod UI
-credits="MarbledNull, MarledHubb Beta Testers, MarbledHubb Volunteer Translators" #optional
+credits="MarbledNull, MarbledHubb Beta Testers, MarbledHubb Volunteer Translators" #optional
 # A text field displayed in the mod UI
 authors="MarbledNull" #optional
 # Display Test controls the display for your mod in the server connection screen
@@ -41,8 +41,7 @@ authors="MarbledNull" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''
-'''
+description='''A core mod for Marbled's mods or a standalone material mod'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.mcore]] #optional
     # the modid of the dependency
