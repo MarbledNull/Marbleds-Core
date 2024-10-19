@@ -27,12 +27,12 @@ displayURL="https://curseforge.com/minecraft/mc-mods/marbleds-core / https://mod
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="mcore_logo.png" #optional
 # A text field displayed in the mod UI
-credits="" #optional
+credits="MarbledNull, MarbledHubb Beta Testers, MarbledHubb Volunteer Translators" #optional
 # A text field displayed in the mod UI
 authors="MarbledNull" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''${mod_description}'''
+description='''A core mod for Marbled's mods or a standalone material mod'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.mcore]] #optional
 # the modid of the dependency
