@@ -27,7 +27,7 @@ displayURL="https://curseforge.com/minecraft/mc-mods/marbleds-core / https://mod
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="mcore_logo.png" #optional
 # A text field displayed in the mod UI
-credits="MarbledNull, MarledHubb Beta Testers, MarbledHubb Volunteer Translators" #optional
+credits="MarbledNull, MarbledHubb Beta Testers, MarbledHubb Volunteer Translators" #optional
 # A text field displayed in the mod UI
 authors="MarbledNull" #optional
 # Display Test controls the display for your mod in the server connection screen
