@@ -22,7 +22,7 @@
             "state": {
               "Name": "mcore:titanium_ore"
             },
-            "size": 4,
+            "size": 5,
             "target": {
               "predicate_type": "minecraft:tag_match",
               "tag": "minecraft:base_stone_overworld"

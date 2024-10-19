@@ -42,7 +42,7 @@ public class ModItems {
     //public static final RegistryObject<Item> VERTICAL_CUT_TITANIUM_BLOCK = ITEMS.register("vertical_cut_titanium_block", () -> new BlockItem(ModBlocks.VERTICAL_CUT_TITANIUM_BLOCK.get(), new Item.Properties().fireResistant()));
     //public static final RegistryObject<Item> VERTICAL_CUT_TITANIUM_STAIRS = ITEMS.register("vertical_cut_titanium_stairs", () -> new BlockItem(ModBlocks.VERTICAL_CUT_TITANIUM_STAIRS.get(), new Item.Properties().fireResistant()));
     //public static final RegistryObject<Item> VERTICAL_CUT_TITANIUM_SLAB = ITEMS.register("vertical_cut_titanium_slab", () -> new BlockItem(ModBlocks.VERTICAL_CUT_TITANIUM_SLAB.get(), new Item.Properties().fireResistant()));
-    public static final RegistryObject<Item> DEEPSLATE_TITANIUM_ORE = ITEMS.register("deepslate_titanium_ore", () -> new BlockItem(ModBlocks.TITANIUM_ORE.get(), new Item.Properties().fireResistant().tab(ModTabs.TABS)));
+    public static final RegistryObject<Item> TITANIUM_ORE = ITEMS.register("titanium_ore", () -> new BlockItem(ModBlocks.TITANIUM_ORE.get(), new Item.Properties().fireResistant().tab(ModTabs.TABS)));
 
     //tools & weapons
     public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword", () -> new SwordItem(McoreTiers.STEEL, 1, -2.4F, new Item.Properties().durability(2031).tab(ModTabs.TABS)));
