@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mcore:steel_nugget"
+    }
+  },
+  "result": {
+    "item": "mcore:steel_ingot",
+    "count": 1
+  }
+}
