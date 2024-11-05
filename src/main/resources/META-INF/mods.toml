@@ -23,11 +23,11 @@ displayName="Marbled's Core" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL="https://curseforge.com/minecraft/mc-mods/marbleds-core / https://modrinth.com/project/marbleds-core" #optional
+displayURL="https://github.com/MarbledNull/Marbleds-Core/wiki" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="mcore_logo.png" #optional
 # A text field displayed in the mod UI
-credits="MarbledNull, MarbledHubb Beta Testers, MarbledHubb Volunteer Translators" #optional
+credits="MarbledNull, MarbledHubb Beta Testers, Those who have submitted translations on GitHub" #optional
 # A text field displayed in the mod UI
 authors="MarbledNull" #optional
 
