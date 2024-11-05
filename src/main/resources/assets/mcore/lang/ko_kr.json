@@ -1,0 +1,39 @@
+{
+  "itemGroup.mcore":"Marbled's Core",
+
+  "item.mcore.steel_ingot": "강철 주괴",
+  "item.mcore.steel_sheet": "강철 판",
+  "item.mcore.steel_nugget": "강철 조각",
+  "item.mcore.steel_scrap": "강철 파편",
+
+  "item.mcore.steel_sword": "강철 검",
+  "item.mcore.steel_pickaxe": "강철 곡괭이",
+  "item.mcore.steel_axe": "강철 도끼",
+  "item.mcore.steel_shovel": "강철 삽",
+  "item.mcore.steel_hoe": "강철 괭이",
+
+  "item.mcore.titanium_sword": "티타늄 검",
+  "item.mcore.titanium_pickaxe": "티타늄 곡괭이",
+  "item.mcore.titanium_axe": "티타늄 도끼",
+  "item.mcore.titanium_shovel": "티타늄 삽",
+  "item.mcore.titanium_hoe": "티타늄 괭이",
+
+  "item.mcore.steel_helmet": "강철 투구",
+  "item.mcore.steel_chestplate": "강철 흉갑",
+  "item.mcore.steel_leggings": "강철 레깅스",
+  "item.mcore.steel_boots": "강철 부츠",
+
+  "item.mcore.titanium_helmet": "티타늄 투구",
+  "item.mcore.titanium_chestplate": "티타늄 흉갑",
+  "item.mcore.titanium_leggings": "티타늄 레깅스",
+  "item.mcore.titanium_boots": "티타늄 부츠",
+
+  "item.mcore.titanium_ingot": "티타늄 주괴",
+  "item.mcore.titanium_nugget": "티타늄 조각",
+  "item.mcore.titanium_sheet": "티타늄 판",
+  "item.mcore.raw_titanium": "티타늄 원석",
+
+  "block.mcore.steel_block": "강철 블록",
+  "block.mcore.titanium_block": "티타늄 블록",
+  "block.mcore.deepslate_titanium_ore": "심층암 티타늄 광석"
+}
