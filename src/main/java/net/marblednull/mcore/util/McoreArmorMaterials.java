@@ -15,7 +15,7 @@ public enum McoreArmorMaterials implements ArmorMaterial {
     STEEL("steel", 33, new int[]{2, 6, 5, 2}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE,
             0.0F, 0.0F, () -> Ingredient.of(ModItems.STEEL_INGOT.get())),
 
-    TITANIUM("titanium", 15, new int[]{3, 6, 8, 3}, 10, SoundEvents.ARMOR_EQUIP_NETHERITE,
+    TITANIUM("titanium", 15, new int[]{3, 8, 6, 3}, 10, SoundEvents.ARMOR_EQUIP_NETHERITE,
             3.0F, 0.1F, () -> Ingredient.of(ModItems.TITANIUM_INGOT.get()));
 
     private static final int[] BASE_DURABILITY = {13, 15, 16, 11};
