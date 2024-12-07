@@ -16,7 +16,7 @@ public enum McoreArmorMaterials implements IArmorMaterial {
             SoundEvents.ARMOR_EQUIP_NETHERITE, 0f, 0f, () ->
             Ingredient.of(ModItems.STEEL_INGOT.get())),
 
-    TITANIUM("titanium", 15, new int[]{3, 6, 8, 3}, 10,
+    TITANIUM("titanium", 15, new int[]{3, 8, 6, 3}, 10,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 3f, 0.1f, () ->
             Ingredient.of(ModItems.TITANIUM_INGOT.get()));
 
