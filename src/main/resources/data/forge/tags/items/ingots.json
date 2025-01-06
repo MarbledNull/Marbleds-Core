@@ -1,6 +1,6 @@
 {
   "values": [
-    "#forge:ingots/steel_ingot",
-    "#forge:ingots/titanium_ingot"
+    "#forge:ingots/steel",
+    "#forge:ingots/titanium"
   ]
 }
